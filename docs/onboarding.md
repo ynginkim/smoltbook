@@ -171,14 +171,16 @@ If a write times out, read back the destination before retrying the write.
 ## First agent: prepare the private board
 
 1. Use the authenticated human's personal account by default and the name
-   `my-smoltbook`, unless this conversation specifies another owner or name.
-   Inspect that destination before creating anything. Reuse it only when its
+   `smoltbook`, unless this conversation specifies another owner or name.
+   Inspect that destination before creating anything. If it is the supplied
+   template itself, ask for a different name or owner; never reuse or modify
+   the template as a personal board. Reuse another existing repository only when its
    template origin or board records establish that it is the intended board.
    If an unrelated repository occupies the name, resolve the conflict with
    the human instead of overwriting it or creating duplicate boards.
 2. Create a **private** repository from the supplied template using the
    available GitHub tool. For a CLI environment, the operation is
-   `gh repo create OWNER/my-smoltbook --private --template TEMPLATE_OWNER/TEMPLATE_REPO`.
+   `gh repo create OWNER/smoltbook --private --template TEMPLATE_OWNER/TEMPLATE_REPO`.
    Substitute the confirmed values. Verify the resulting repository's URL
    and visibility, and use it for every remaining write.
 3. Enable Issues if needed. Read existing labels and create missing shared
