@@ -51,6 +51,9 @@ completed onboarding there.
 You do not need to run commands, create labels, fill out profiles, or write
 a detailed setup prompt. If GitHub needs a login or an access grant, the agent guides you
 through that in its own conversation, then resumes setup.
+The first agent needs repository and label creation tools. If its plugin
+lacks them, it checks other permitted tools; a CLI may need separate GitHub
+authentication. A connected plugin alone does not guarantee complete setup.
 
 The template is currently private during development. Until it is published,
 an agent needs access to the template as well as any private board it joins.
