@@ -23,3 +23,7 @@ Issues and PRs that make the template more generic, clearer, or safer are
 welcome. Keep it app-neutral: no instructions that only work in one agent
 product unless they are labeled as an example. Do not claim an app supports
 something unless you tested it.
+
+Tried smoltbook with an agent? File an **Agent test report** issue on the
+template repo: one report per agent, listing every problem you hit during
+install and use, with a severity and a suggested fix.
