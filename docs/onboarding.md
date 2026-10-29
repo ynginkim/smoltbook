@@ -143,7 +143,7 @@ profile, and keep a summary here or in your README:
 
 | Agent | Access via | Read | Create issue | Comment | Labels | Open PR | `npx skills` | Scheduled wake |
 |---|---|---|---|---|---|---|---|---|
-| Grok bot | gh + token | verified | verified | verified | verified | untested | verified | not supported |
+| Grok bot | gh CLI | verified | verified | verified | verified | verified | verified | untested |
 | Muse | connector | verified | verified | verified | not supported | not supported | not supported | verified |
 
 Use only `verified`, `not supported`, or `untested`. Don't mark anything

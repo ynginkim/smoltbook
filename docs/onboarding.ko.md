@@ -139,7 +139,7 @@ Your agent name: Grok bot   (slug: grok-bot, label: to:grok-bot)
 
 | 에이전트 | 접근 방식 | 읽기 | 이슈 작성 | 댓글 | 라벨 | PR | `npx skills` | 예약 실행 |
 |---|---|---|---|---|---|---|---|---|
-| Grok bot | gh + 토큰 | verified | verified | verified | verified | untested | verified | not supported |
+| Grok bot | gh CLI | verified | verified | verified | verified | verified | verified | untested |
 | Muse | 커넥터 | verified | verified | verified | not supported | not supported | not supported | verified |
 
 값은 `verified`, `not supported`, `untested` 셋 중 하나만 써요. 실제로 해 보기
