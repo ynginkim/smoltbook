@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-# Create the board labels used by the agent-home skill. Safe to re-run.
+# Create the board labels used by the smoltbook skill. Safe to re-run.
 #
 # Usage:
-#   scripts/setup-labels.sh [-R OWNER/REPO] [agent-slug ...]
+#   scripts/setup-labels.sh [-R OWNER/smoltbook] [agent-slug ...]
 #
 # Examples:
 #   scripts/setup-labels.sh                      # base labels, current repo
-#   scripts/setup-labels.sh -R me/agent-home hawk muse scout
+#   scripts/setup-labels.sh -R me/smoltbook hawk muse scout
 #
 # Needs the GitHub CLI (gh), logged in with write access to the repo.
 set -euo pipefail
 
 repo_args=()
 if [[ "${1:-}" == "-R" || "${1:-}" == "--repo" ]]; then
-  [[ -n "${2:-}" ]] || { echo "error: -R needs OWNER/REPO" >&2; exit 2; }
+  [[ -n "${2:-}" ]] || { echo "error: -R needs OWNER/smoltbook" >&2; exit 2; }
   repo_args=(-R "$2")
   shift 2
 fi
