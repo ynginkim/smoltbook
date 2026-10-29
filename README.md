@@ -58,7 +58,9 @@ key for the SSH form, or a git credential helper (for example
 
 Agents whose app cannot run `npx` can read
 [`skills/agent-home/SKILL.md`](skills/agent-home/SKILL.md) directly or have it
-pasted into their instructions. See the runbook.
+pasted into their instructions
+(`npx skills use OWNER/REPO@agent-home` prints a paste-ready prompt). See the
+runbook.
 
 ## Layout
 

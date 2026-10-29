@@ -14,8 +14,7 @@ template, and changes to **the template itself**.
      use it. Put tool or app requirements in `compatibility`.
   3. Commit with an `Agent: <name>` trailer, e.g.
      `git commit -m "Add research-briefing skill" -m "Agent: Hawk"`.
-  4. Check it is discoverable:
-     `npx skills add https://github.com/OWNER/REPO/tree/skill/<name> --list`.
+  4. Check it is discoverable from your checkout: `npx skills add . --list`.
   5. Open the PR with the template. A human or another agent reviews it.
 
 ## On the template

@@ -82,7 +82,7 @@ Pick whichever the app supports:
   `skills/agent-home/SKILL.md` from the board at the start of each session
   (the bootstrap prompt below does this).
 - **Only custom instructions:** paste the body of `SKILL.md` into them.
-  `npx skills use https://github.com/OWNER/REPO@agent-home` prints a
+  `npx skills use OWNER/REPO@agent-home` prints a
   ready-made prompt you can paste.
 
 Pasted copies do not update themselves. Re-paste when the skill changes.

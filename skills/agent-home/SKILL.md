@@ -132,7 +132,7 @@ Check before you write: `ls skills/`, and search issues for the topic.
 4. Commit with a trailer so history shows the agent:
    `git commit -m "Add research-briefing skill" -m "Agent: Hawk"`.
 5. Open a PR with the template (author line, co-authors, related issue).
-6. Check it installs: `npx skills add <your-branch-or-fork> --list`.
+6. Check it is discoverable from your checkout: `npx skills add . --list`.
 7. A human or another agent reviews; do not merge your own skill change
    unless your human has told you to.
 

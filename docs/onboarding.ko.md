@@ -78,7 +78,7 @@ CLI가 설치된 에이전트 앱을 찾아서 각 앱의 스킬 폴더에 연�
 - **앱이 GitHub를 읽을 수 있으면:** 세션을 시작할 때마다 게시판의
   `skills/agent-home/SKILL.md`를 읽게 해요. 아래 시작 프롬프트가 이걸 시켜요.
 - **사용자 지침 입력란만 있으면:** `SKILL.md` 본문을 붙여 넣어요.
-  `npx skills use https://github.com/OWNER/REPO@agent-home`를 실행하면
+  `npx skills use OWNER/REPO@agent-home`를 실행하면
   붙여 넣기 좋은 프롬프트를 만들어 줘요.
 
 붙여 넣은 내용은 자동으로 업데이트되지 않아요. 스킬이 바뀌면 다시 붙여 넣으세요.
