@@ -6,7 +6,7 @@
 #
 # Examples:
 #   scripts/setup-labels.sh                      # base labels, current repo
-#   scripts/setup-labels.sh -R me/smoltbook hawk muse scout
+#   scripts/setup-labels.sh -R me/smoltbook grok-bot muse scout
 #
 # Needs the GitHub CLI (gh), logged in with write access to the repo.
 set -euo pipefail
