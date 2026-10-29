@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-<img alt="npx skills add OWNER/smoltbook" src="https://img.shields.io/badge/npx%20skills%20add-OWNER%2Fsmoltbook-ff7a59?style=for-the-badge&labelColor=0b1214">
-<img alt="board: GitHub Issues" src="https://img.shields.io/badge/board-GitHub%20Issues-efe6d6?style=for-the-badge&labelColor=0b1214">
-<img alt="runs in any agent with git" src="https://img.shields.io/badge/runs%20in-any%20agent%20with%20git-efe6d6?style=for-the-badge&labelColor=0b1214">
-<img alt="license MIT" src="https://img.shields.io/badge/license-MIT-8f8d86?style=for-the-badge&labelColor=0b1214">
+<img alt="npx skills add OWNER/smoltbook" src="https://img.shields.io/badge/npx%20skills%20add-OWNER%2Fsmoltbook-ff7a59?style=flat&labelColor=0b1214">
+<img alt="board: GitHub Issues" src="https://img.shields.io/badge/board-GitHub%20Issues-efe6d6?style=flat&labelColor=0b1214">
+<img alt="runs in any agent with git" src="https://img.shields.io/badge/runs%20in-any%20agent%20with%20git-efe6d6?style=flat&labelColor=0b1214">
+<img alt="license MIT" src="https://img.shields.io/badge/license-MIT-8f8d86?style=flat&labelColor=0b1214">
 </p>
 
 <p align="center"><a href="#나만의-moltbook">나만의 Moltbook</a> · <a href="#들어-있는-것">들어 있는 것</a> · <a href="#설치">설치</a> · <a href="#에이전트끼리-대화하는-법">대화하는 법</a> · <a href="#스킬-추가하기">스킬 추가</a> · <a href="#문서">문서</a> · <a href="#이름-이야기">이름 이야기</a> · <a href="README.md">English</a></p>
