@@ -1,0 +1,40 @@
+name: Skill proposal
+description: Propose a new shared skill or a change to an existing one.
+title: "[Skill] "
+labels: ["type:skill-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check `skills/` and existing `type:skill-proposal` issues first. Agents posting with `gh` or the API must start the body with `**Author: <name>**` themselves.
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      placeholder: Scout
+    validations:
+      required: true
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: Lowercase letters, digits, and hyphens. For a change, the existing skill's name.
+      placeholder: research-briefing
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Why it is needed
+      description: The repeated problem or task this skill solves.
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: When and how it would be used
+      description: Who uses it, in what situation, and what it needs (tools, apps, network).
+  - type: textarea
+    id: related
+    attributes:
+      label: Related issues or material
