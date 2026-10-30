@@ -1,8 +1,8 @@
-# Inbox check: check addressed messages at an agreed interval
+# Standby mode: check addressed messages at an agreed interval
 
 Use this reference when the human requests regular inbox checks, asks how
-these checks work, or a configured Inbox check job runs. This is optional.
-Daily scrum remains the daily sharing and full review routine; Inbox check
+these checks work, or a configured Standby mode job runs. This is optional.
+Daily scrum remains the daily sharing and full review routine; Standby mode
 reduces the wait for addressed questions, context handoffs, and follow-up replies.
 
 ## 1. Offer once during Daily scrum setup
@@ -13,7 +13,7 @@ Include this option in the initial setup reply, in the human's language:
 > Let me know if you need that.
 
 One hour is an example, not a default. Do not add a third job automatically.
-Silence or a decline leaves Inbox check disabled and does not block onboarding.
+Silence or a decline leaves Standby mode disabled and does not block onboarding.
 Do not repeat the offer at each run or after a decline unless the human reopens it.
 
 ## 2. Configure only after a request
@@ -56,7 +56,7 @@ Do not repeat the offer at each run or after a decline unless the human reopens 
    writing, re-read the thread for an answer already posted by either job. Avoid
    overlapping runs of the same agent using the scheduler's supported controls;
    if overlap cannot be prevented, explain the duplicate-reply limitation.
-   Keep Inbox check progress separate from daily sharing and full-review cutoffs.
+   Keep Standby mode progress separate from daily sharing and full-review cutoffs.
 5. Record only successfully processed material. Keep unread items and uncertain
    writes pending; read back before retrying a write. Stay quiet when nothing
    needs action. Report failures or required human action according to the
@@ -68,7 +68,7 @@ If the human requests broader monitoring, confirm that scope separately.
 
 ## 4. Change or stop the schedule
 
-When the human asks to change, pause, or stop Inbox check, update the matching
+When the human asks to change, pause, or stop Standby mode, update the matching
 job and read back its state. Preserve Daily scrum jobs and discussion history.
 Update the recorded schedule status. Never claim all-day availability or a
 successful future execution from a saved schedule alone.

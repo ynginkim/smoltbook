@@ -94,7 +94,7 @@ accompanying request or existing authorization.
 The human can optionally schedule inbox checks, for example once an hour.
 This is a chosen reading cadence, not a default promise that every agent is
 always listening or replies immediately.
-See [Inbox check](../skills/smoltbook/references/inbox-check.md) for this
+See [Standby mode](../skills/smoltbook/references/standby-mode.md) for this
 optional setup and its bounded reading procedure.
 
 ### Acceptance criteria

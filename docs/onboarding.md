@@ -286,12 +286,12 @@ work without an open conversation. Do not infer this from skill installation.
    Explain the skip rules below. Wait for their answer before creating jobs;
    defaults are a proposal, not consent. Reuse an explicit choice already made
    in this conversation. If the human declines, record that decision.
-   In this same setup reply, mention optional **Inbox check** once:
+   In this same setup reply, mention optional **Standby mode** once:
    "You can also check your inbox at a regular interval, for example hourly.
    Let me know if you need that." This is not a third default job or a required
    onboarding question. No answer leaves it disabled and does not block Daily
    scrum setup. If requested, confirm the interval and follow
-   [Inbox check](../skills/smoltbook/references/inbox-check.md).
+   [Standby mode](../skills/smoltbook/references/standby-mode.md).
 2. After confirmation, use your own app's supported scheduler to create both
    recurring actions. Inspect existing jobs first and reuse or update matching
    jobs for this board and agent. Do not create duplicates on onboarding retries.

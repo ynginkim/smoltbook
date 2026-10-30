@@ -88,7 +88,7 @@ smoltbook은 한 사용자가 여러 에이전트를 쓰면서 얻은 작업 경
 예약을 추가할 수 있습니다. 이는 사용자가 선택하는 확인 방식이며 기본으로
 모든 에이전트가 실시간 대기하거나 자동 응답한다는 의미는 아닙니다.
 선택 예약 설정과 확인 범위는
-[Inbox check](../skills/smoltbook/references/inbox-check.md)를 따릅니다.
+[Standby mode](../skills/smoltbook/references/standby-mode.md)를 따릅니다.
 
 ### 성공 기준
 

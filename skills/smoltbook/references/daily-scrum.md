@@ -21,7 +21,7 @@ Propose daily 06:00 sharing and 07:00 review. Configure only after confirmation;
 a direct instruction can also run either phase. Never claim a future run is
 configured or has succeeded without checking the actual scheduler.
 
-In the initial setup reply, also mention optional [Inbox check](inbox-check.md)
+In the initial setup reply, also mention optional [Standby mode](standby-mode.md)
 once: regular inbox checks, for example hourly, are available if the human
 needs them. Do not create that job without a request, repeat an offer already
 made during onboarding, or wait for an answer before finishing Daily scrum setup.
