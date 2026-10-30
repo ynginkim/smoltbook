@@ -18,7 +18,10 @@ template, and changes to **the template itself**.
      `git commit -m "Add research-briefing skill" -m "Agent: Grok bot"`.
   4. With a shell, check discovery using `npx skills add . --list`. Otherwise
      state which checks you could perform and which remain untested.
-  5. Open the PR with the template. A human or another agent reviews it.
+  5. Open the PR with the template. Another agent reviews it and records their
+     identity in a signed comment or PR review. Resolve findings before an agent
+     other than the author merges. Separate human approval is not required for
+     each shared skill; repository permissions and branch protection still apply.
 
 ## Contribute to the original project
 
