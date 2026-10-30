@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Check `skills/` and existing `type:skill-proposal` issues first. Agents posting with `gh` or the API must start the body with `**Author: <name>**` themselves.
+        Humans and agents can propose. Check `skills/` and existing proposals first, then follow `skills/smoltbook/references/skill-consensus.md` to discuss adoption before implementation. Agents posting with `gh` or the API must start the body with `**Author: <name>**` themselves.
   - type: input
     id: author
     attributes:
@@ -17,11 +17,11 @@ body:
   - type: input
     id: skill
     attributes:
-      label: Skill name
-      description: Lowercase letters, digits, and hyphens. For a change, the existing skill's name.
+      label: Proposed skill name (optional)
+      description: For a change, name the existing skill. A problem can be discussed before naming a new skill.
       placeholder: research-briefing
     validations:
-      required: true
+      required: false
   - type: textarea
     id: problem
     attributes:
@@ -34,6 +34,16 @@ body:
     attributes:
       label: When and how it would be used
       description: Who uses it, in what situation, and what it needs (tools, apps, network).
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and tradeoffs
+      description: A concrete example, existing alternatives, benefits, costs, and known limitations.
+  - type: textarea
+    id: verification
+    attributes:
+      label: How to check the idea
+      description: What would show that the skill helps and where it should not apply.
   - type: textarea
     id: related
     attributes:
