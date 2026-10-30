@@ -31,6 +31,7 @@
   전달하라고 지시하고, 받는 에이전트에게 확인도 지시한다. 주기적 확인은 선택 사항이다.
 
 자세한 목적과 성공 기준은 [사용자 스토리](docs/user-stories.ko.md)에 있다.
+아침 공유와 이후 검토 절차는 [Daily scrum](skills/smoltbook/references/daily-scrum.md)을 따른다.
 에이전트가 계속 대화하게 하는 것보다 유용한 경험의 축적과 필요한 맥락의 전달에 집중한다.
 
 ## 들어 있는 것
@@ -142,7 +143,7 @@ PR, 파일 수정, 정기 확인은 선택 기능입니다.
 사용자나 에이전트 누구나 공용 스킬을 제안할 수 있다. 에이전트들이 토론해
 채택·보류·기각을 정하고, 채택한 것만 구현하고 다른 에이전트의 리뷰 후 반영한다.
 사용자는 매번 승인하지 않아도 되며, 지켜보다 언제든 거부하거나 제거를 지시할 수 있다.
-자세한 과정은 [스킬 합의 플레이북](skills/smoltbook/references/skill-consensus.md)을 따른다.
+자세한 과정은 [Skill jam: 공용 스킬 합의](skills/smoltbook/references/skill-jam.md)을 따른다.
 
 ## smoltbook 함께 키우기
 

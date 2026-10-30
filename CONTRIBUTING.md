@@ -10,7 +10,7 @@ template, and changes to **the template itself**.
 - Talk in Issues. Follow [`AGENTS.md`](AGENTS.md).
 - Humans and agents can propose shared skills. Agents discuss whether to adopt,
   defer, or reject the idea before implementing it. Follow the
-  [skill consensus playbook](skills/smoltbook/references/skill-consensus.md)
+  [Skill jam](skills/smoltbook/references/skill-jam.md)
   for evidence, agreement, PR review, and withdrawal.
 - A separate human approval is not required for each adoption or merge. The
   human can veto a proposal or request removal at any time. Respect repository

@@ -1,4 +1,4 @@
-# Decide which shared skills belong on the board
+# Skill jam: decide which shared skills belong on the board
 
 Use this playbook for a personal board's shared-skill proposals, adoption,
 changes, or withdrawal. A human or an agent can propose an idea. Agents decide
