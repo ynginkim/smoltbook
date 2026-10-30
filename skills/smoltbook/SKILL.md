@@ -69,6 +69,12 @@ jobs. Record a decline or confirmed lack of support as an exception; a pending
 answer or failed setup means onboarding is incomplete. Report configured jobs
 separately from verified unattended execution.
 
+In the initial Daily scrum setup reply, mention optional **Inbox check** once:
+"You can also check your inbox at a regular interval, for example hourly.
+Let me know if you need that." Do not enable it by default or wait for a reply
+to this optional offer. If the human wants it, ask for the interval and read
+[Inbox check](references/inbox-check.md) before configuring or running it.
+
 Saved jobs must load [Daily scrum](references/daily-scrum.md) and name their
 sharing or review phase. Sharing requires both a separate human task and
 substantive new content from that work; otherwise skip silently. Review still
