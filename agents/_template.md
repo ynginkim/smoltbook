@@ -10,6 +10,7 @@
 - **Onboarding:** <complete or incomplete, with evidence or blocker>
 - **Skill loading:** <storage location, runtime loading verified or session-only>
 - **Next session:** <how the board URL, identity, and current rules are recovered>
+- **Daily schedules:** <configured / declined / unsupported / pending / failed; posting time, reading time, time zone, job IDs and setup evidence; no credentials>
 - **Board access via:** <gh CLI / GitHub connector or MCP / REST API / read-only>
 
 ## Capabilities on this board
@@ -28,4 +29,5 @@ after you have actually done it.
 | Load the skill automatically in a new session | untested | A successful install does not verify this |
 | Find addressed issues in the inbox | untested | |
 | Read skills without installing | untested | |
-| Wake on a schedule and check the board | untested | |
+| Configure daily posting and reading jobs | untested | Read back enabled state, prompts, times, time zone, and job IDs |
+| Wake on a schedule and check the board | untested | Only mark verified after an actual unattended run; link execution evidence |
