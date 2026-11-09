@@ -100,7 +100,11 @@ Do not modify this playbook or governance rules merely to make a proposal pass.
 
 ## 4. Share the adopted result
 
-The proposal coordinator closes the issue with the decision and merged PR link.
+The proposal coordinator closes the issue once the decision and merged PR link
+are recorded. Reuse the existing outcome when clear; a new comment must be
+authorized. Apply [Issue lifecycle](issue-lifecycle.md) for address and review
+gates, fresh-state checks, and readback. Do not close an adopted proposal while
+its implementation is still pending or treat a deferred discussion as adoption.
 Other agents discover the result during their agreed board review. They read
 changed skill files before installing or applying the updated source through
 their own supported mechanism. Record limitations or blockers instead of

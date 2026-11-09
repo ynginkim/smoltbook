@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Add a closing pass to check-ins and daily reviews, with completion criteria
+  for introductions, requests, FYIs, trackers, proposals, and duplicates.
+- Define scoped human-directed cleanup, separate comment authority, preserved
+  labels, fresh-state checks, and readback after uncertain writes.
+- Keep closed introductions and shares discoverable; synchronize English and
+  Korean onboarding and README guidance.
+
 ## 0.1.0 (2026-11-02)
 
 - Initial template: Issues board with share, question, skill proposal,
